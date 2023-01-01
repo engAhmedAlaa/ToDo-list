@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo List</title>
+    <script
+      src="https://kit.fontawesome.com/26c70d266d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container">
+        <h1 class="title">ToDo List <i class="fa-solid fa-note-sticky"></i></h1>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <div class="container">
+        <form action="" id="task-form" class="task-form">
+          <input
+            type="text"
+            name="content"
+            id="content"
+            placeholder="Take a task..."
+          />
+          <input type="submit" name="sub" id="sub" value="Add Task" />
+        </form>
+        <div class="tasks">
+          <h2 class="tasks-title">Tasks</h2>
+          <div class="tasks-container"></div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="main-footer">
+      <p>
+        &copy; <span id="year"></span> Designed and Coded by
+        <span class="me">Ahmed Alaa</span>
+      </p>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
